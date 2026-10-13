@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -12,17 +13,18 @@ int main() {
         cout << "2. Odstevanje" << endl;
         cout << "3. Mnozenje" << endl;
         cout << "4. Deljenje" << endl;
-        cout << "5. Izhod" << endl;
+        cout << "5. Potenciranje" << endl;
+        cout << "6. Izhod" << endl;
 
         cout << "\nIzberi operacijo: ";
         cin >> izbira;
 
-        if (izbira == 5) {
+        if (izbira == 6) {
             cout << "Konec programa." << endl;
             break;
         }
 
-        if (izbira < 1 || izbira > 5) {
+        if (izbira < 1 || izbira > 6) {
             cout << "Napacna izbira!" << endl;
             continue;
         }
@@ -49,6 +51,9 @@ int main() {
                     continue;
                 }
                 rezultat = a / b;
+                break;
+            case 5: 
+                rezultat =pow(a,b);
                 break;
         }
 
