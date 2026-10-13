@@ -8,7 +8,7 @@ int main() {
     char nadaljuj;
 
     do {
-        cout << "\n===== KALKULATOR =====" << endl;
+        cout << "\n===== Moj KALKULATOR =====" << endl;
         cout << "1. Sestevanje" << endl;
         cout << "2. Odstevanje" << endl;
         cout << "3. Mnozenje" << endl;
