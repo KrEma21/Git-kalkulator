@@ -14,6 +14,7 @@ int main() {
         cout << "3. Mnozenje" << endl;
         cout << "4. Deljenje" << endl;
         cout << "5. Potenciranje" << endl;
+        cout << "Program omogoca osnovne matematicne operacije." << endl;
         cout << "6. Izhod" << endl;
 
         cout << "\nIzberi operacijo: ";
