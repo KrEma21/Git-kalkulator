@@ -1,0 +1,17 @@
+
+name: Preverjanje kalkulatorja
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Prenesi kodo
+        uses: actions/checkout@v4
+
+      - name: Prevedi kalkulator
+        run: g++ main.cpp -o kalkulator
